@@ -24,8 +24,18 @@ ul {
     overflow: hidden;
 }
 
-h3.title {
+span {
+    color: red;
+}
+
+.title {
     color: #AD3333;
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 .container {
@@ -49,6 +59,10 @@ header {
   vertical-align: middle;
 }
 
+.header-title {
+    font-weight: bold;
+}
+
 .contents-wrapper {
   margin-top: 45px;
   background-color: #ffffff;
@@ -60,4 +74,21 @@ header {
     background-color: #FCE7E7;
     border: solid 1px #450000;
     border-radius: 8px;
+}
+
+.section-container {
+    padding: 0 10px;
+}
+
+.discription-container {
+    padding: 0 10px;
+}
+
+.discription-text {
+    margin-top: 0;
+}
+
+.discription-text-return {
+    margin-top: 0;
+    margin-bottom: 0;
 }
